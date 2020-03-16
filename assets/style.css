@@ -186,6 +186,7 @@ p, address {
 .tm-nav-ul {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .tm-nav-li {
