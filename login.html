@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home - Recommendations</title> 
+		<title>Login - ConTip</title> 
 		<link href="./assets/style.css" rel="stylesheet" />
 	</head>
 	<body> 
@@ -30,93 +30,35 @@
 
 			<main>
 				<header class="row tm-welcome-section">
-					<h2 class="col-12 text-center tm-section-title">Specially For You...</h2>
-					<p class="col-12 text-center">...we sat down and watched thousands of movies, just to find some special ones that you should definitely check out this week.</p>
+					<h2 class="col-12 text-center tm-section-title">Log In</h2>
 				</header>
 
-				<div class="row tm-gallery">
-					<div id="tm-gallery-page-movies" class="tm-gallery-page">
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/1.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The First Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$45</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Second Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$65</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/3.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Third Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$30.50</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/4.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Fourth Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$25.50</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/5.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Fifth Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$80.25</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/6.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Sixth Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$20</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/7.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Seventh Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$94</p>
-								</figcaption>
-							</figure>
-						</article>
-						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
-								<img src="img/8.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title">The Eighth Movie</h4>
-									<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-									<p class="tm-gallery-price">$15</p>
-								</figcaption>
-							</figure>
-						</article>
-					</div>
+				<div class="tm-section">
+					<form action="#" method="POST">
+						<input type="text" name="text" class="form-control" placeholder="Username" />
+						<input type="password" name="password" class="form-control" placeholder="Password" />
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Log In</button>
+						</div>
+					</form>
+					<h2><br><br><br>No Account? Create One!<br><br></h2>
+					<form action="#" method="POST">
+						<input type="text" name="text" class="form-control" placeholder="Username" />
+						<input type="text" name="text" class="form-control" placeholder="Full Name" />
+						<input type="email" name="email" class="form-control" placeholder="Email" />
+						<input type="password" name="password" class="form-control" placeholder="Password" />
+						<input type="password" name="password" class="form-control" placeholder="Confirm Password" />
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Sign Up</button>
+						</div>
+					</form>
+					<h3>Forgot Password?</h3>
+					<form action="#" method="POST">
+						<input type="email" name="email" class="form-control" placeholder="Email" />
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Restore Password</button>
+						</div>
+					</form>
 				</div>
 			</main>
 

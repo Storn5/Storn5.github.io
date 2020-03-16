@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home - Recommendations</title> 
+		<title>Profile - ConTip</title> 
 		<link href="./assets/style.css" rel="stylesheet" />
 	</head>
 	<body> 
@@ -31,44 +31,53 @@
 			<main>
 				<header class="row tm-welcome-section">
 					<h2 class="col-12 text-center tm-section-title">My Profile</h2>
+					<p class="col-12 text-center">...where you can find or change info about your account.</p>
 				</header>
 
 				<div class="tm-section">
 					<h2>Profile Info<br><br></h2>
-					<p>Username: <br><br></p>
-					<p>Email: <br><br></p>
-					<p>Full name: <br><br></p>
-					<p>Last login: <br><br></p>
+					<p>Username: my_username<br><br></p>
+					<p>Email: my_email@email.org<br><br></p>
+					<p>Full name: Firstname Lastname<br><br></p>
+					<p>Last login: 11.03.2020<br><br></p>
 					<h2>Change Profile<br><br></h2>
 					<h3>Change Favorite Genres<br><br></h3>
-					<input type="checkbox" id="genre1" name="genre1" value="Genre 1">
-					<label for="genre1"> First Genre</label><br>
-					<input type="checkbox" id="genre2" name="genre2" value="Genre 2">
-					<label for="genre2"> Second Genre</label><br>
-					<input type="checkbox" id="genre3" name="genre3" value="Genre 3">
-					<label for="genre3"> Third Genre</label><br>
-					<input type="checkbox" id="genre4" name="genre4" value="Genre 4">
-					<label for="genre4"> Fourth Genre</label><br>
-					<input type="checkbox" id="genre5" name="genre5" value="Genre 5">
-					<label for="genre5"> Fifth Genre</label><br><br><br>
-					<div class="tm-d-flex">
-						<button type="submit" class="tm-btn">Change</button>
-					</div>
+					<form action="#" method="POST">
+						<input type="checkbox" id="genre1" name="genre1" value="Genre 1">
+						<label for="genre1"> First Genre</label><br>
+						<input type="checkbox" id="genre2" name="genre2" value="Genre 2">
+						<label for="genre2"> Second Genre</label><br>
+						<input type="checkbox" id="genre3" name="genre3" value="Genre 3">
+						<label for="genre3"> Third Genre</label><br>
+						<input type="checkbox" id="genre4" name="genre4" value="Genre 4">
+						<label for="genre4"> Fourth Genre</label><br>
+						<input type="checkbox" id="genre5" name="genre5" value="Genre 5">
+						<label for="genre5"> Fifth Genre</label><br><br><br>
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Change</button>
+						</div>
+					</form>
 					<h3>Change Email<br><br></h3>
-					<input type="email" name="email" class="form-control" placeholder="New Email" />
-					<div class="tm-d-flex">
-						<button type="submit" class="tm-btn">Change</button>
-					</div>
+					<form action="#" method="POST">
+						<input type="email" name="email" class="form-control" placeholder="New Email" />
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Change</button>
+						</div>
+					</form>
 					<h3>Change Password<br><br></h3>
-					<input type="password" name="password" class="form-control" placeholder="New Password" />
-					<input type="password" name="password" class="form-control" placeholder="New New Password" />
-					<div class="tm-d-flex">
-						<button type="submit" class="tm-btn">Change</button>
-					</div>
+					<form action="#" method="POST">
+						<input type="password" name="password" class="form-control" placeholder="New Password" />
+						<input type="password" name="password" class="form-control" placeholder="New New Password" />
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Change</button>
+						</div>
+					</form>
 					<h3>Delete Account<br><br></h3>
-					<div class="tm-d-flex">
-						<button type="submit" class="tm-btn">Delete Account</button>
-					</div>
+					<form action="#" method="POST">
+						<div class="tm-d-flex">
+							<button type="submit" class="tm-btn">Delete Account</button>
+						</div>
+					</form>
 				</div>
 			</main>
 
