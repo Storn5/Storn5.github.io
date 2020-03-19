@@ -10,7 +10,6 @@ a, button {
 /* Bootstrap grid system  */
 html {
   box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
 }
 
 * {
@@ -24,7 +23,7 @@ html {
   margin-left: auto;
   background-color: white;
 }
-.container p, .container h1, .container h2, .container h3, .container h4 {
+.container p, .container h1, .container h2, .container h3, .container h4, .container input {
   margin: 10px;
   padding: 10px;
 }
