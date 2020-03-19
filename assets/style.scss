@@ -3,7 +3,13 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
   padding: 0;
 }
 
-a, button { transition: all 0.3s ease; }
+a, button {
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration:none;
+}
 
 /* Bootstrap grid system  */
 
@@ -299,6 +305,13 @@ p, address {
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
+  color: #1A6692;
+  margin-bottom: 15px;
+}
+
+.tm-movie-title {
+  font-size: 1.5rem;
+  font-weight: 500;
   color: #1A6692;
   margin-bottom: 15px;
 }
