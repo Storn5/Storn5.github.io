@@ -211,8 +211,8 @@ p, address {
   list-style: none;
   display: block;
   margin-bottom: 25px;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .tm-nav-link {
@@ -274,6 +274,14 @@ p, address {
   .tm-nav {
     text-align: right;
     margin-top: 10px;
+  }
+
+  .tm-nav-li {
+    list-style: none;
+    display: block;
+    margin-bottom: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 @media (min-width: 768px) {
