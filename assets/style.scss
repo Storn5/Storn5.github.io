@@ -135,11 +135,16 @@ html {
   height: auto;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+  width: 100%;
+  position: relative;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
   background-color: #ccc;
-  overflow-x: hidden;
 }
 
 p, address {
@@ -154,7 +159,6 @@ p, address {
   position: relative;
   bottom: 0;
   left: 0;
-  width: 100%;
   color: white;
   z-index: 1000;
 }
