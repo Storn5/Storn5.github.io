@@ -32,6 +32,13 @@ html {
   padding: 10px;
 }
 
+.row-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -197,23 +204,17 @@ p, address {
 .tm-nav-ul {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .tm-nav-li {
   list-style: none;
   display: block;
   margin-bottom: 25px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
-@media (max-width: 991px) {
-  .tm-nav-li {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
 .tm-nav-link {
   color: white;
   text-decoration: none;
@@ -261,6 +262,13 @@ p, address {
 @media (min-width: 576px) {
   .tm-gallery-page {
     max-width: 560px;
+  }
+}
+@media (max-width: 769px) {
+  .tm-nav-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
 }
 @media (min-width: 768px) {
