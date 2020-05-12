@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&effect=anaglyph|fire-animation|neon|3d|3d-float');
+
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
   padding: 0;
@@ -9,10 +10,11 @@ a, button {
 }
 
 a {
-  text-decoration: none;
+  text-decoration:none;
 }
 
 /* Bootstrap grid system  */
+
 html {
   box-sizing: border-box;
 }
@@ -27,10 +29,10 @@ html {
   margin-right: auto;
   margin-left: auto;
   background-color: white;
-}
-.container p, .container h1, .container h2, .container h3, .container h4, .container input {
-  margin: 10px;
-  padding: 10px;
+  p, h1, h2, h3, h4, input {
+    margin: 10px;
+	padding: 10px;
+  }
 }
 
 .row-reverse {
@@ -52,7 +54,7 @@ html {
 .col-lg-6,
 .col-md-4,
 .col-md-6,
-.col-sm-6,
+.col-sm-6, 
 .col-12 {
   position: relative;
   width: 100%;
@@ -71,33 +73,36 @@ html {
     max-width: 50%;
   }
 }
+
 @media (min-width: 768px) {
   .col-md-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-
+  
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
+
 @media (min-width: 992px) {
   .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
   }
-
+  
   .col-lg-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
-
+  
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
+
 .tm-btn {
   display: inline-block;
   font-size: 1rem;
@@ -125,7 +130,7 @@ html {
 }
 
 .tm-mb-p {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .tm-text-success {
@@ -152,7 +157,7 @@ html, body {
 body {
   width: 100%;
   position: relative;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
   background-color: #ccc;
 }
@@ -182,6 +187,7 @@ p, address {
     padding: 30px 15px;
   }
 }
+
 .tm-site-text-box {
   display: inline-block;
 }
@@ -265,18 +271,17 @@ p, address {
     max-width: 560px;
   }
 }
+
 @media (max-width: 769px) {
   .tm-nav-ul {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
   }
-
   .tm-nav {
     text-align: right;
     margin-top: 10px;
   }
-
   .tm-nav-li {
     list-style: none;
     display: block;
@@ -285,28 +290,31 @@ p, address {
     padding-left: 5px;
   }
 }
+
 @media (min-width: 768px) {
   .tm-gallery-page,
-.tm-section,
-.tm-container-inner,
-.tm-container-inner-2 {
+  .tm-section,
+  .tm-container-inner,
+  .tm-container-inner-2 {
     max-width: 840px;
   }
 }
+
 @media (min-width: 992px) {
   .tm-gallery-page,
-.tm-section {
+  .tm-section {
     max-width: 1120px;
   }
-
+  
   .tm-container-inner {
     max-width: 1120px;
   }
-
+  
   .tm-container-inner-2 {
     max-width: 900px;
   }
 }
+
 .tm-gallery-item {
   max-width: 280px;
 }
@@ -381,10 +389,11 @@ p, address {
 }
 
 @media (min-width: 768px) {
-  .tm-contact-form {
+ .tm-contact-form {
     max-width: 310px;
-  }
+  } 
 }
+
 .form-control {
   margin-bottom: 30px;
   display: block;
@@ -411,7 +420,6 @@ p, address {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
-
 .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
@@ -420,5 +428,3 @@ p, address {
 .tm-contact-section {
   padding-bottom: 30px;
 }
-
-/*# sourceMappingURL=style.css.map */
